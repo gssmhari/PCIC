@@ -38,6 +38,12 @@
       "name": "access_denied",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "thank_u",
+      "name": "thank_u",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
