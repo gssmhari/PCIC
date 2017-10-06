@@ -36,8 +36,22 @@
     {
       "id": "newhome",
       "name": "newhome",
-      "sourceScreenId": "app.menu",
+      "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "notificationscaptivating",
+      "name": "Notifications-Captivating",
+      "sourceScreenId": "app.notifications.notificationscaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "notificationscaptivating"
+    },
+    {
+      "id": "formsmallconfident",
+      "name": "FormSmall-Confident",
+      "sourceScreenId": "app.formsmall.formsmallconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "formsmallconfident"
     }
   ],
   "sourceAppId": "_blank",
