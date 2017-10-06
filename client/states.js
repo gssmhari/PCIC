@@ -69,5 +69,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.formsmallconfident', {
+        views: {
+            app: {
+                controller: 'app_formsmallconfident',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.formsmallconfident');
+                }
+            }
+        }
     });
 });

@@ -45,6 +45,13 @@
       "sourceScreenId": "app.notifications.notificationscaptivating",
       "sourceAppId": "universaltemplates",
       "model": "notificationscaptivating"
+    },
+    {
+      "id": "formsmallconfident",
+      "name": "FormSmall-Confident",
+      "sourceScreenId": "app.formsmall.formsmallconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "formsmallconfident"
     }
   ],
   "sourceAppId": "_blank",
