@@ -32,6 +32,12 @@
       "name": "home",
       "sourceScreenId": "app.menu",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "newhome",
+      "name": "newhome",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
