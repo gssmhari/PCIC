@@ -51,5 +51,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.access_denied', {
+        views: {
+            app: {
+                controller: 'app_access_denied',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.access_denied');
+                }
+            }
+        }
     });
 });
