@@ -38,6 +38,13 @@
       "name": "newhome",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "notificationscaptivating",
+      "name": "Notifications-Captivating",
+      "sourceScreenId": "app.notifications.notificationscaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "notificationscaptivating"
     }
   ],
   "sourceAppId": "_blank",
