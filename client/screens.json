@@ -38,13 +38,6 @@
       "name": "newhome",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
-    },
-    {
-      "id": "formsmallconfident",
-      "name": "FormSmall-Confident",
-      "sourceScreenId": "app.formsmall.formsmallconfident",
-      "sourceAppId": "universaltemplates",
-      "model": "formsmallconfident"
     }
   ],
   "sourceAppId": "_blank",
