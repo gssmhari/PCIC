@@ -3,7 +3,7 @@ function app_login($scope, app) {
     'use strict';
     app.init($scope);
     
-    $scope.surveyBtn = function()
+    $scope.app.action = function()
     {
     alert('i am here');
     }
