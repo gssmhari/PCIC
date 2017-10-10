@@ -11,6 +11,9 @@
       },
       "surveyBtn": {
         "type": "action"
+      },
+      "test": {
+        "type": "action"
       }
     }
   }
