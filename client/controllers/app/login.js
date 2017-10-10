@@ -5,6 +5,6 @@ function app_login($scope, app) {
     
     $scope.app.action = function(page,action,value)
     {
-    alert('i am here',action);
+    alert('i am here test:',action);
     }
 }
