@@ -17,8 +17,8 @@
       "model": "login"
     },
     {
-      "id": "home",
-      "name": "home",
+      "id": "survey",
+      "name": "survey",
       "sourceScreenId": "app.menu",
       "sourceAppId": "_blank"
     },
