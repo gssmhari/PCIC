@@ -10,12 +10,6 @@
       "sourceScreenId": "app.blank"
     },
     {
-      "id": "menu",
-      "name": "menu",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.menu"
-    },
-    {
       "id": "login",
       "name": "Login",
       "sourceScreenId": "app.blank",
@@ -43,6 +37,12 @@
       "id": "multiselect",
       "name": "multiselect",
       "sourceScreenId": "app.multiselect",
+      "sourceAppId": "_blank"
+    },
+    {
+      "id": "menu",
+      "name": "menu",
+      "sourceScreenId": "app.menu",
       "sourceAppId": "_blank"
     }
   ],

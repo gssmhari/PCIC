@@ -15,15 +15,6 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.menu', {
-        views: {
-            app: {
-                controller: 'app_menu',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.menu');
-                }
-            }
-        }
     }).state('app.login', {
         views: {
             app: {
@@ -66,6 +57,15 @@ angular.module('app').config(function ($stateProvider) {
                 controller: 'app_multiselect',
                 templateProvider: function (app) {
                     return app.templateProvider('app.multiselect');
+                }
+            }
+        }
+    }).state('app.menu', {
+        views: {
+            app: {
+                controller: 'app_menu',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.menu');
                 }
             }
         }
