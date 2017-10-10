@@ -3,8 +3,8 @@ function app_login($scope, app) {
     'use strict';
     app.init($scope);
     
-    $scope.app.action = function(page,action,value)
+    $scope.app.action = function(pagedata,actiondata,valuedata)
     {
-    alert('i am here test:',action);
+    alert('i am here test:',actiondata);
     }
 }
