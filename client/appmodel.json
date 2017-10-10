@@ -1,1 +1,17 @@
-{}
+{
+  "login": {
+    "type": "object",
+    "comment": "login",
+    "properties": {
+      "username": {
+        "type": "string"
+      },
+      "userpwd": {
+        "type": "string"
+      },
+      "surveyBtn": {
+        "type": "action"
+      }
+    }
+  }
+}
