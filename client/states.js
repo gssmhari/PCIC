@@ -24,15 +24,6 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.multiselect', {
-        views: {
-            app: {
-                controller: 'app_multiselect',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.multiselect');
-                }
-            }
-        }
     }).state('app.login', {
         views: {
             app: {
@@ -66,6 +57,15 @@ angular.module('app').config(function ($stateProvider) {
                 controller: 'app_thank_u',
                 templateProvider: function (app) {
                     return app.templateProvider('app.thank_u');
+                }
+            }
+        }
+    }).state('app.multiselect', {
+        views: {
+            app: {
+                controller: 'app_multiselect',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.multiselect');
                 }
             }
         }
