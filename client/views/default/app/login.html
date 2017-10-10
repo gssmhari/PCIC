@@ -12,7 +12,7 @@
             style="color: rgb(160, 164, 178); margin: 25px;">Email
             <label class="item item-input dark-bg" data-comp-id="textInput.1"
                 style="border-top: 0px; border-right: 0px; border-left: 0px;">
-                <input class=" light" type="email">
+                <input class=" light" ng-model="data.username" type="email">
             </label>
         </h3>
         <h3 class=" stable" data-comp-id="text.4"
@@ -20,14 +20,15 @@
             Password
             <label class="item item-input dark-bg" data-comp-id="textInput.2"
                 style="border-top: 0px; border-right: 0px; border-left: 0px;">
-                <input class=" light" type="password">
+                <input class=" light" ng-model="data.userpwd" type="password">
             </label>
         </h3>
         <div class="row" data-comp-id="row.2">
             <div class="col" data-comp-id="column.2"
                 style="margin-left:25px; margin-right:25px">
                 <button class="button button-block" data-comp-id="button.1"
-                    ng-click="app.go('app.home')" style="background-color: rgb(71, 213, 253);">Start Survey</button>
+                    ng-click="app.action('login', 'surveyBtn', this)"
+                    style="background-color: rgb(71, 213, 253);">Start Survey</button>
             </div>
         </div>
         <div class="row" data-comp-id="row.3">
