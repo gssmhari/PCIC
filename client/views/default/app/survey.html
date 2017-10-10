@@ -4,7 +4,7 @@
         <h1 class="title" data-comp-id="text.1">Customer Journey Survey</h1>
     </ion-header-bar>
     <ion-content class="has-header nocolor-bg" data-comp-id="ionic-content.1">
-        <div class="row" ng-repeat="ques in questions"
+        <div class="row" ng-repeat="ques in questions track by $index"
             style="background:cyan; padding:0px !important ">
             <div class="col" style="padding:0px !important">
                 <div class="row" style="background:white;">
